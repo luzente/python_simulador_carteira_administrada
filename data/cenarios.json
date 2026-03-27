@@ -1,0 +1,50 @@
+[
+  {
+    "nome": "Teste Produto",
+    "janela_meses": 36,
+    "projecao_cdi": {
+      "taxas_anuais": [
+        14.0,
+        14.0,
+        14.0
+      ]
+    },
+    "carteira_admin": {
+      "valor_investido": 50000.0,
+      "target_pct": 97.0,
+      "taxa_admin_pct": 1.0
+    },
+    "carteira_diy": {
+      "produtos": [
+        {
+          "nome": "CDB PICPAY",
+          "tipo": "CDB",
+          "taxa_cdi": 104.5,
+          "valor": 10000.0,
+          "prazo_meses": 36
+        },
+        {
+          "nome": "CDB RIACHUELO",
+          "tipo": "CDB",
+          "taxa_cdi": 102.0,
+          "valor": 10000.0,
+          "prazo_meses": 36
+        },
+        {
+          "nome": "LCA ORIGINAL",
+          "tipo": "LCA",
+          "taxa_cdi": 91.0,
+          "valor": 20000.0,
+          "prazo_meses": 36
+        },
+        {
+          "nome": "CDB BANCO VOLKSWAGEN",
+          "tipo": "CDB",
+          "taxa_cdi": 98.25,
+          "valor": 10000.0,
+          "prazo_meses": 36
+        }
+      ]
+    }
+  }
+]

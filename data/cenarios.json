@@ -1,9 +1,14 @@
 [
   {
     "nome": "Teste Produto",
-    "janela_meses": 36,
+    "janela_meses": 96,
     "projecao_cdi": {
       "taxas_anuais": [
+        14.0,
+        14.0,
+        14.0,
+        14.0,
+        14.0,
         14.0,
         14.0,
         14.0
@@ -17,32 +22,46 @@
     "carteira_diy": {
       "produtos": [
         {
-          "nome": "CDB PICPAY",
-          "tipo": "CDB",
-          "taxa_cdi": 104.5,
-          "valor": 10000.0,
-          "prazo_meses": 36
-        },
-        {
-          "nome": "CDB RIACHUELO",
-          "tipo": "CDB",
-          "taxa_cdi": 102.0,
-          "valor": 10000.0,
-          "prazo_meses": 36
-        },
-        {
           "nome": "LCA ORIGINAL",
           "tipo": "LCA",
+          "taxa_cdi": 94.0,
+          "valor": 10000.0,
+          "prazo_meses": 48
+        },
+        {
+          "nome": "LCA BANCO BRADESCO",
+          "tipo": "LCA",
           "taxa_cdi": 91.0,
-          "valor": 20000.0,
+          "valor": 10000.0,
           "prazo_meses": 36
         },
         {
-          "nome": "CDB BANCO VOLKSWAGEN",
-          "tipo": "CDB",
-          "taxa_cdi": 98.25,
+          "nome": "LCI CEF",
+          "tipo": "LCI",
+          "taxa_cdi": 88.0,
           "valor": 10000.0,
-          "prazo_meses": 36
+          "prazo_meses": 48
+        },
+        {
+          "nome": "CDB PERNANBUCANAS",
+          "tipo": "CDB",
+          "taxa_cdi": 107.5,
+          "valor": 5000.0,
+          "prazo_meses": 48
+        },
+        {
+          "nome": "CDB OMNI FINANCEIRA",
+          "tipo": "CDB",
+          "taxa_cdi": 106.5,
+          "valor": 5000.0,
+          "prazo_meses": 48
+        },
+        {
+          "nome": "CDB BTG PACTUAL",
+          "tipo": "CDB",
+          "taxa_cdi": 105.0,
+          "valor": 10000.0,
+          "prazo_meses": 96
         }
       ]
     }
